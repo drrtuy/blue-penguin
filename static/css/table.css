@@ -1,0 +1,59 @@
+<style type="text/css">
+
+.comparison_table {
+    background-color: #EEE;
+}
+
+td {
+    padding: 2px 5px 1px 5px;
+}
+
+th {
+    padding: 5px 5px 5px 5px;
+}
+
+.query_cell {
+    width: 300px;
+    white-space: pre;
+    overflow-x: hidden;
+}
+
+.query_cell:hover {
+    width: auto;
+    background-color: #FEC;
+    position: absolute;
+    padding: 3px;
+    margin: -11px 0 0 -3px;
+    overflow-x: auto;
+    white-space: normal;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 8px 25px -5px rgba(0, 0, 0, 0.25);
+}
+
+.number_cell {
+    text-align: right;
+}
+
+.comparison_table td {
+    background-color: #FFF;
+}
+
+.comparison_table th {
+    background-color: #F8F8F8;
+}
+
+#diagram table tr td {
+    border-left: 1px solid #EEE;
+    border-top: 1px solid #EEE;
+    background-color: #F8F8F8;
+}
+
+#diagram table tr td:last-child {
+    border-right: 1px solid #EEE;
+}
+
+#diagram table tr:last-child td {
+    border-bottom: 1px solid #EEE;
+}
+
+
+</style>
